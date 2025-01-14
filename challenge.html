@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thử thách truy cập</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    .challenge-container {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+    .timer {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+    }
+    input {
+      padding: 5px;
+      margin: 10px 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+    <h1>Trang web đang bị chặn</h1>
+  <p>Để truy cập trang web này, bạn cần hoàn thành các thử thách sau:</p>
+  <div class="challenge-container">
+    <div id="challengeDesc"></div>
+    <div class="timer" id="timer">30</div>
+    <input type="text" id="answer" placeholder="Nhập câu trả lời">
+    <button id="submit">Kiểm tra</button>
+  </div>
+  <script src="challenge.js"></script>
+</body>
+</html>
